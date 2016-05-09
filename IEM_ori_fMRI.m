@@ -261,7 +261,7 @@ for rr = 1:n_runs
     end
     
     % if using all voxels
-    %which_vox = ones(size(myLbetas,2))==1;
+    %which_vox = ones(1,size(myLbetas,2))==1;
     
     which_vox = ps <= prctile(ps,50);
     
